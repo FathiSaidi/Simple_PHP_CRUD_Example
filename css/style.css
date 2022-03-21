@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Cairo', sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+}
+
+body{
+     background-color: #eee;
+}
+
+.header {
+     width: 80%;
+     margin: 20px auto 0px;
+     color: #ffffff;
+     background-color: #2266a5;
+     padding: 6px 10px;
+     text-align: center;
+}
+
+h1{
+     font-size: 22px;
+     font-weight: 500;
+}
+
+.content{
+     width: 80%;
+     background-color: #dad7d7;
+     margin: 0px auto;
+     padding: 10px;
+     margin-bottom: 10px;
+}
+
+.addlink {
+     margin: 10px 20px;
+     text-align: right;
+}
+
+table{
+     border-collapse: collapse;
+     width: 95%;
+     margin: 15px auto;
+     border:  1px solid #2266a5;
+}
+
+table thead tr{
+     background-color: #2266a5;
+     color: white;
+}
+
+table thead tr th{
+     border-right: 1px solid #ffffff;
+     padding: 4px;
+     overflow: hidden;
+}
+
+table tbody tr{
+     background-color: #ffffff;
+     border-bottom: none;
+}
+
+table tbody tr td{
+     border-right: 1px solid #2266a5;
+     border-bottom: 1px solid #2266a5;
+     padding: 4px;
+}
+
+table tbody tr td:last-child , table thead tr th:last-child{
+     border-right: none;
+}
+
+.addbtn{
+     background-color: #1d9728;
+     color: white;
+     padding: 3px 23px;
+     text-decoration: none;
+     outline: none;
+     border: none;
+     margin-top: 10px;
+}
+
+.updatebtn{
+     background-color: #1d6a97;
+     color: white;
+     padding: 3px 23px;
+     text-decoration: none;
+     outline: none;
+     border: none;
+}
+
+.deletebtn{
+     background-color: #a32420;
+     color: white;
+     padding: 3px 23px;
+     text-decoration: none;
+     outline: none;
+     border: none;
+}
+
+.pagination {
+     text-align: center;
+     text-decoration: none;
+     outline: none;
+     margin: 10px;
+}
+
+.form {
+     text-align: center;
+     box-sizing: border-box;
+     width : 40%;
+     margin: 0 auto;
+}
+
+.input-group{
+     margin: 10px;
+}
+
+.input-group label{
+     margin-left: 5px;
+     text-align: left;
+     display: block;
+}
+
+.input-group input{
+     width: 90%;
+     padding:  3px 10px;
+     border-radius: 5px;
+     border: 1px solid #2266a5;
+     outline: none;
+     text-decoration: none;
+}
+
+.pages{
+     background-color: #2266a5;
+     color: #ffffff;
+     padding: 0 8px;
+     margin: 3px;
+     text-decoration: none;
+     outline: none;
+}
